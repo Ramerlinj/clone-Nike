@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+@font-face {
+		font-family: 'nike-font-bold';
+		font-weight: 400;
+		font-style: normal;
+		font-display: swap;
+		src: url('../fonts/nike-font.woff2') format('woff2'),
+		url('../fonts/nike-font-bold.woff2') format('woff2')
+	}
+	@font-face {
+		font-family: 'nike-font-medium';
+		font-weight: 400;
+		font-style: normal;
+		font-display: swap;
+		src: url('../fonts/HelveticaNowTextMedium.woff2') format('woff2')
+	}
+	@font-face {
+		font-family: 'nike-font-display';
+		font-weight: 400;
+		font-style: normal;
+		font-display: swap;
+		src: url('../fonts/HelveticaNowDisplayMedium.woff2') format('woff2')
+	}
+
+
+@theme {
+	--font-nike-medium: 'nike-font-medium', Arial, sans-serif;
+	--font-nike-bold: 'nike-font-bold', Arial, sans-serif;
+	--font-nike-display: 'nike-font-display', Arial, sans-serif;
+
+
+    --color-primary: #1f1f21;
+    --color-secondary: #94f008;
+}
