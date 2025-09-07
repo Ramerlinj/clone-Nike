@@ -1,0 +1,36 @@
+---
+import teamData from '../../data/team.json';
+const { team } = teamData;
+---
+
+<section class="w-full px-4 md:px-12 py-16">
+    <div class="max-w-3xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-nike-bold text-secondary mb-4">Leadership Team</h2>
+            <p class="text-lg text-white max-w-xl mx-auto">
+                Meet the visionaries driving Nike's mission to serve athletes everywhere
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {team.map((member) => (
+                <div class="bg-gray-900 rounded-lg overflow-hidden hover:bg-gray-800 transition-all duration-300 group">
+                    <div class="w-full h-64 bg-gray-700 relative overflow-hidden">
+                        <img src={member.image} alt={member.name} class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"/>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="text-lg font-nike-bold text-white mb-1">{member.name}</h3>
+                        <p class="text-secondary font-nike-medium mb-2 text-sm">{member.position}</p>
+                        <p class="text-gray-300 text-xs leading-relaxed line-clamp-3">{member.description}</p>
+                    </div>
+                </div>
+            ))}
+        </div>
+        
+        <div class="text-center mt-12">
+            <button onclick="location.href='/contact'" class="bg-secondary text-primary cursor-pointer px-8 py-3 rounded-full font-nike-medium hover:bg-opacity-90 transition-colors">
+                Join Our Team
+            </button>
+        </div>
+    </div>
+</section>
