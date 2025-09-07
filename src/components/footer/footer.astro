@@ -1,0 +1,26 @@
+---
+import NikeLogo from "../../assets/nike.svg";
+import { Instagram, Facebook, Twitter } from '@lucide/astro';
+---
+
+<footer class="w-full h-96 mt-30 flex flex-col items-center justify-center text-white">
+    <hr class="w-11/12 border-t border-gray-500 mb-6"/>
+    <div class="mb-4">
+        <NikeLogo href='/' class="size-20 hover:opacity-80 cursor-pointer"/>
+    </div>
+    <div class="text-center">
+        <p class="mb-2">© 2025 Nike, Inc. Todos los derechos reservados.</p>
+        <p class="mb-2">
+            <a href="#" class="hover:opacity-85 transition-opacity duration-300 hover:border-b-2 hover:border-white">Privacy Policy</a> | 
+            <a href="#" class="hover:opacity-85 transition-opacity duration-300 hover:border-b-2 hover:border-white">Terms of Use</a> | 
+            <a href="#" class="hover:opacity-85 transition-opacity duration-300 hover:border-b-2 hover:border-white">Contact Us</a></p>
+        <p>Siguenos en:
+            <div class="flex justify-center items-center space-x-6 mt-2 h-8 ">
+                <a href="#" class="border-transparent hover:border-2 hover:border-white p-1 hover:rounded-xl transition-all duration-200 hover:scale-125"><Facebook /></a>
+                <a href="#" class="border-transparent hover:border-2 hover:border-white p-1 hover:rounded-xl transition-all duration-200 hover:scale-125"><Twitter /></a>
+                <a href="#" class="border-transparent hover:border-2 hover:border-white p-1 hover:rounded-xl transition-all duration-200 hover:scale-120"><Instagram /></a>
+            </div>
+        </p>
+    </div>
+
+</footer>
