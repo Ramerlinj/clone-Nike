@@ -1,0 +1,22 @@
+{
+  "team": [
+    {
+      "name": "Sarah Williams",
+      "position": "Chief Innovation Officer",
+      "image": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Leading breakthrough innovations in athletic performance and sustainable design."
+    },
+    {
+      "name": "Marcus Rodriguez",
+      "position": "Global Brand Director",
+      "image": "https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", 
+      "description": "Driving Nike's consumer-centric approach and global marketplace innovation."
+    },
+    {
+      "name": "David Chen",
+      "position": "VP of Technology",
+      "image": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Pioneering digital transformation and next-generation athlete experiences."
+    }
+  ]
+}

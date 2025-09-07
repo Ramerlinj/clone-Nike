@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "title": "Innovation",
+      "description": "We push the boundaries of sport to create breakthrough innovations that help athletes perform at their best.",
+      "icon": "🚀"
+    },
+    {
+      "title": "Sustainability",
+      "description": "We're committed to protecting the future of sport through sustainable practices and circular design.",
+      "icon": "🌱"
+    },
+    {
+      "title": "Diversity",
+      "description": "We believe diverse teams and inclusive culture fuel innovation and drive breakthrough performance.",
+      "icon": "🤝"
+    },
+    {
+      "title": "Community",
+      "description": "We create positive impact in communities around the world through sport and movement.",
+      "icon": "🌍"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+    "ItemsHeader": [
+        {
+            "Name" : "Home",
+            "Link" : "/"
+        },
+        {
+            "Name" : "About",
+            "Link" : "/about"
+        },
+        {
+            "Name" : "Contact",
+            "Link" : "/contact"
+        },
+        {
+            "Name" : "Products",
+            "Link" : "/products"
+        }
+    ],
+    "ItemsFooter": [
+        {
+            "Enlace Rapido":[
+                {
+                    "Name" : "Home",
+                    "Link" : "/"
+                },
+                {
+                    "Name" : "About",
+                    "Link" : "/about"
+                },
+                {
+                    "Name" : "Contact",
+                    "Link" : "/contact"
+                },
+                {
+                    "Name" : "Products",
+                    "Link" : "/products"
+                }
+            ],
+            "Politicas":[
+                {
+                    "Name" : "Privacy Policy",
+                    "Link" : "/privacy-policy"
+                },
+                {
+                    "Name" : "Terms of Service",
+                    "Link" : "/terms-of-service"
+                }
+            ],
+            "Contact":[
+                {   
+                    "Name" : "Email",
+                    "Link" : "mailto:contact@example.com"
+                }
+            ]
+        }
+    ]
+
+}

@@ -1,0 +1,38 @@
+{
+    "TITLE": "Compra por deporte",
+    "imagesShop": [
+        {
+        "src": "/gallery/lebron-player.jpg",
+        "alt": "Gallery Image 1",
+        "proffesion": "Basketball"
+        },
+        {
+        "src": "/gallery/runner-player.jpg",
+        "alt": "Gallery Image 2",
+        "proffesion": "Runner"
+        },
+        {
+        "src": "/gallery/tenis-player.jpg",
+        "alt": "Gallery Image 3",
+        "proffesion": "Tennis"
+        }
+    ],
+    "TITLE2": "Explora por deporte",
+    "imagesCategories": [
+        {
+        "src": "/gallery/Basket-player.jpg",
+        "alt": "Gallery Image 1",
+        "description": "Calzado"
+        },
+        {
+        "src": "/gallery/futball-player.jpg",
+        "alt": "Gallery Image 2",
+        "description": "Accesorios y Equipamiento"
+        },
+        {
+        "src": "/gallery/Skay-player.jpg",
+        "alt": "Gallery Image 3",
+        "description": "Ropa"
+        }
+    ]
+}
