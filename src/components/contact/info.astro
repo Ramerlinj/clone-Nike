@@ -1,0 +1,32 @@
+---
+import infoData from '../../date/info.json';
+const { contactInfo } = infoData;
+---
+
+<section class="w-full px-4 md:px-12 py-16">
+    <div class="max-w-3xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-nike-bold text-secondary mb-4">Información de Contacto</h2>
+            <p class="text-lg text-white max-w-xl mx-auto">
+                Múltiples formas de contactarnos. Elige la que mejor te funcione.
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {contactInfo.map((info) => (
+                <div class="bg-gray-900 cursor-pointer p-6 rounded-lg hover:bg-gray-800 transition-colors group text-center">
+                    <div class="text-4xl mb-4">{info.icon}</div>
+                    <h3 class="text-xl font-nike-bold text-secondary mb-2 group-hover:text-secondary transition-colors">
+                        {info.title}
+                    </h3>
+                    <p class="text-white font-nike-medium mb-2">
+                        {info.value}
+                    </p>
+                    <p class="text-gray-300 text-sm leading-relaxed">
+                        {info.description}
+                    </p>
+                </div>
+            ))}
+        </div>
+    </div>
+</section>
