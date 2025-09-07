@@ -1,0 +1,17 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import ItemsHeader from "./items.astro";
+import NikeLogo from "../../assets/nike.svg";
+---
+<div class="fixed top-0 left-0 right-0 z-50">
+    <div class="h-11 w-full bg-black"></div>
+    <header class="w-full h-20 bg-primary text-white flex items-center px-4 border-b-[1px] border-b-white/10 ">
+        <div class="flex ml-8  flex-1">
+            <NikeLogo class="size-25" />
+        </div>
+        <div class="flex justify-center flex-1 items-center w-full font-nike-medium text-xl">
+            <ItemsHeader />
+        </div>
+        <div class="flex flex-1"></div>
+    </header>
+</div>

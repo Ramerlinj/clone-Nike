@@ -1,0 +1,15 @@
+---
+import root from "../../data/root.json";
+---
+
+<nav>
+  <ul class="flex space-x-8">
+    {
+      root.ItemsHeader.map((item) => (
+        <li>
+          <a class="hover:border-b-2 hover:opacity-80" href={item.Link}>{item.Name}</a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>
