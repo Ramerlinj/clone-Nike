@@ -1,0 +1,22 @@
+{
+    "contactInfo": [
+        {
+            "title": "Teléfono",
+            "value": "+1 829 123 456",
+            "icon": "📞",
+            "description": "Atención al Cliente disponible 24/7"
+        },
+        {
+            "title": "Correo Electrónico",
+            "value": "contacto@nike.com",
+            "icon": "📧",
+            "description": "Responderemos en 24 horas"
+        },
+        {
+            "title": "Dirección",
+            "value": "sanron 123, Santo Domingo, República Dominicana",
+            "icon": "📍",
+            "description": "Sede Mundial de Nike"
+        }
+    ]
+}

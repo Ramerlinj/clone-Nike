@@ -1,0 +1,205 @@
+[
+  {
+    "id": 1,
+    "name": "Nike Air Force 1 '07",
+    "price": "$110",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/b7d9211c-26e7-431a-ac24-b0540fb3c00f/AIR+FORCE+1+%2707.png",
+    "description": "Un clásico del básquet convertido en icono urbano. Cuero suave y amortiguación Air."
+  },
+  {
+    "id": 2,
+    "name": "Nike Air Max 90",
+    "price": "$95",
+    "originalPrice": "$130",
+    "discount": "27%",
+    "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f24b9d65-fd5a-4815-bec8-47864937dcb8/NIKE+AIR+MAX+90.png",
+    "description": "Diseño retro con la icónica unidad Air Max visible y comodidad duradera."
+  },
+  {
+    "id": 3,
+    "name": "Nike Air Max 97",
+    "price": "$175",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/6a3671b8-f115-44f6-9ab6-3798d55210eb/custom-nike-air-max-97-shoes-by-you.png",
+    "description": "Inspiradas en trenes bala japoneses, con líneas fluidas y amortiguación de largo completo."
+  },
+  {
+    "id": 4,
+    "name": "Nike Air Jordan 1 Mid",
+    "price": "$88",
+    "originalPrice": "$125",
+    "discount": "30%",
+    "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/31deaeb0-1638-4825-a9ff-6e07ce13c7c1/AIR+JORDAN+1+MID.png",
+    "description": "Un ícono que revolucionó la cultura sneaker, ahora en versión mid-cut."
+  },
+  {
+    "id": 5,
+    "name": "Nike Air Jordan 4 Retro",
+    "price": "$210",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ae0d6b63-f3c8-465f-a671-034d3338a15b/AIR+JORDAN+4+RETRO+OG+%28GS%29.png",
+    "description": "Clásico de 1989 con diseño llamativo y soporte de red característico."
+  },
+  {
+    "name": "Nike Blazer Mid '77",
+    "price": "$105",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/7dcc6fd4-b41c-493e-85bd-58b8944b6b1d/W+BLAZER+MID+%2777.png",
+    "description": "Estilo vintage inspirado en los 70s, con detalles retro y un look versátil."
+  },
+  {
+    "name": "Nike Dunk Low Retro",
+    "price": "$110",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/63e45eb0-b739-48c9-8cf6-9684fcaa5100/NIKE+DUNK+LOW+x+LEGO+COL+PS.png",
+    "description": "Una leyenda del básquet adaptada a la moda urbana. Look clásico y versátil."
+  },
+  {
+    "name": "Nike Air Max 270",
+    "price": "$160",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/247184b0-3670-45f2-8ad9-76307cae5a80/AIR+MAX+270.png",
+    "description": "Con una de las unidades Air más grandes, ofrece comodidad y estilo futurista."
+  },
+  {
+    "name": "Nike Air Max Plus",
+    "price": "$175",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/379ae5b4-78ef-4d2b-9db4-dcf1730b0b0d/air-max-plus-shoes-6lVt5N.png",
+    "description": "Diseño agresivo de los 90 con soporte firme y amortiguación Tuned Air."
+  },
+  {
+    "name": "Nike Air VaporMax 2023",
+    "price": "$210",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fliho8ygw5nogbmtcbft/AIR+VAPORMAX+PLUS.png",
+    "description": "Amortiguación Air visible en toda la suela con parte superior Flyknit ligera."
+  },
+  {
+    "name": "Nike LeBron 20",
+    "price": "$200",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/fb2c9c12-fd83-48e5-b72f-8a560bfa9e34/lebron-xx-basketball-shoes.png",
+    "description": "Zapatillas de alto rendimiento diseñadas para el estilo explosivo de LeBron James."
+  },
+  {
+    "name": "Nike KD 15",
+    "price": "$160",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cff11cce-f3ad-4cb0-a7ad-524ad0e8c168/kd15-basketball-shoes.png",
+    "description": "Comodidad ligera y amortiguación Zoom Air para jugadores versátiles."
+  },
+  {
+    "name": "Nike PG 6",
+    "price": "$110",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/48b3a8f0-913d-4d93-9631-08fd63a6c41a/pg-6-basketball-shoes.png",
+    "description": "Diseñadas para jugadores ágiles con amortiguación reactiva y tracción sólida."
+  },
+  {
+    "name": "Nike Kyrie Infinity",
+    "price": "$140",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/9c1870b2-33a8-4a92-85e1-4eae4cc5e0cc/kyrie-infinity-basketball-shoes.png",
+    "description": "Diseño de Kyrie Irving con sujeción flexible y tracción multidireccional."
+  },
+  {
+    "name": "Nike Metcon 8",
+    "price": "$130",
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/593b1a59-9475-4975-bf22-b65adf4d3b8a/metcon-8-training-shoes.png",
+    "description": "Zapatillas de entrenamiento estables y duraderas para levantamiento y cardio."
+  },
+  {
+    "name": "Nike Free RN 5.0",
+    "price": "$100",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/d4f3ff7d-82ef-4659-92f8-bc82f91e5f74/free-rn-5-running-shoes.png",
+    "description": "Running natural con suela flexible que se adapta al movimiento del pie."
+  },
+  {
+    "name": "Nike Pegasus 40",
+    "price": "$130",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/52ac124e-0416-489e-94a1-1a1842cbfbe7/pegasus-40-road-running-shoes.png",
+    "description": "Modelo versátil de running con espuma reactiva y ajuste seguro."
+  },
+  {
+    "name": "Nike ZoomX Vaporfly NEXT% 2",
+    "price": "$250",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/ee3b327e-2c83-47f1-9f87-5aef9cbf1b5f/zoomx-vaporfly-next-2-road-racing-shoes.png",
+    "description": "Diseñadas para velocidad en maratones con placa de carbono y espuma ZoomX."
+  },
+  {
+    "name": "Nike Zoom Fly 5",
+    "price": "$160",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f2d6d9c2-97a6-42c3-bdde-bd317a3c0a7f/zoom-fly-5-road-running-shoes.png",
+    "description": "Combinación de velocidad y resistencia con espuma duradera y soporte avanzado."
+  },
+  {
+    "name": "Nike React Infinity Run 3",
+    "price": "$170",
+    "originalPrice": null,
+    "discount": null,   
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/40b2cb18-85bc-4f77-a0a2-0deac2ccefa9/react-infinity-run-flyknit-3-road-running-shoes.png",
+    "description": "Estabilidad y amortiguación para correr con menos riesgo de lesiones."
+  },
+  {
+    "name": "Nike Structure 25",
+    "price": "$140",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/cc7723c4-dac8-471a-9c2a-d1afcf6e9f64/structure-25-road-running-shoes.png",
+    "description": "Zapatilla de running estable con soporte adicional para pronadores."
+  },
+  {
+    "name": "Nike Invincible 3",
+    "price": "$180",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/10ad1cf6-1e46-4df4-9a7c-fd5f5a39e7ea/invincible-3-road-running-shoes.png",
+    "description": "Running premium con máxima amortiguación ZoomX para largas distancias."
+  },
+  {
+    "name": "Nike Waffle One",
+    "price": "$100",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/2b1f4e63-033f-4a5a-9c3e-0741b061d807/waffle-one-shoes.png",
+    "description": "Inspiradas en el running clásico con toques modernos y suela Waffle."
+  },
+  {
+    "name": "Nike Cortez",
+    "price": "$90",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/5c5e00bd-2bcf-4c2f-9e4e-09e8f2bb1e9c/cortez-shoes.png",
+    "description": "Un ícono desde los 70s, famosas en la cultura pop y perfectas para el día a día."
+  },
+  {
+    "name": "Nike Air Huarache",
+    "price": "$125",
+    "originalPrice": null,
+    "discount": null,
+    "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/8ac29c64-f068-463e-97c8-26cfbfae04a3/air-huarache-shoes.png",
+    "description": "Diseño de los 90 con neopreno ajustado y comodidad de ajuste tipo guante."
+  }
+]
