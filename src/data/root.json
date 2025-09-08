@@ -5,15 +5,15 @@
             "Link" : "/"
         },
         {
-            "Name" : "About",
+            "Name" : "Nosotros",
             "Link" : "/about"
         },
         {
-            "Name" : "Contact",
+            "Name" : "Contacto",
             "Link" : "/contact"
         },
         {
-            "Name" : "Products",
+            "Name" : "productos",
             "Link" : "/products"
         }
     ],
@@ -21,34 +21,34 @@
         {
             "Enlace Rapido":[
                 {
-                    "Name" : "Home",
+                    "Name" : "Inicio",
                     "Link" : "/"
                 },
                 {
-                    "Name" : "About",
+                    "Name" : "Nosotros",
                     "Link" : "/about"
                 },
                 {
-                    "Name" : "Contact",
+                    "Name" : "Contacto",
                     "Link" : "/contact"
                 },
                 {
-                    "Name" : "Products",
+                    "Name" : "Productos",
                     "Link" : "/products"
                 }
             ],
             "Politicas":[
                 {
-                    "Name" : "Privacy Policy",
+                    "Name" : "Política de Privacidad",
                     "Link" : "/privacy-policy"
                 },
                 {
-                    "Name" : "Terms of Service",
+                    "Name" : "Términos de Servicio",
                     "Link" : "/terms-of-service"
                 }
             ],
-            "Contact":[
-                {   
+            "Contacto":[
+                {
                     "Name" : "Email",
                     "Link" : "mailto:contact@example.com"
                 }
