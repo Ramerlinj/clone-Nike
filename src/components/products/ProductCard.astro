@@ -1,0 +1,60 @@
+---
+interface Props {
+  product: {
+    id: number;
+    name: string;
+    price: string;
+    originalPrice?: string | null;
+    discount?: string | null;
+    image: string;
+    description: string;
+  }
+}
+
+const { product } = Astro.props;
+
+// Función para truncar texto a 50 caracteres
+const truncateText = (text: string, maxLength: number = 50): string => {
+  if (text.length <= maxLength) return text;
+  return text.substring(0, maxLength) + '...';
+};
+---
+
+<div class="bg-gray-100 rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
+    <!-- Imagen del producto -->
+    <div class="aspect-square bg-gray-200 relative overflow-hidden">
+        <img 
+            src={product.image} 
+            alt={product.name}
+            class="w-full h-full object-cover"
+        />
+        
+        <!-- Badge de descuento -->
+        {product.discount && (
+            <div class="absolute top-3 right-3 bg-red-500 text-white px-2 py-1 rounded text-xs font-bold">
+                {product.discount} off
+            </div>
+        )}
+    </div>
+    
+    <!-- Información del producto -->
+    <div class="p-4 bg-white">
+        <h3 class="font-nike-bold text-gray-900 mb-2">{truncateText(product.name, 30)}</h3>
+        <p class="text-gray-600 text-sm mb-3">{truncateText(product.description, 50)}</p>
+        
+        <!-- Precio -->
+        <div class="flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <span class="font-nike-bold text-gray-900 text-lg">{product.price}</span>
+                {product.originalPrice && (
+                    <span class="text-gray-500 text-sm line-through">{product.originalPrice}</span>
+                )}
+            </div>
+            
+            <!-- Botón de comprar -->
+            <button class="bg-primary text-white px-4 py-2 rounded-full text-sm font-nike-medium hover:bg-gray-800 transition-colors">
+                Buy Now
+            </button>
+        </div>
+    </div>
+</div>

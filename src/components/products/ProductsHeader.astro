@@ -1,0 +1,29 @@
+---
+interface Props {
+  totalProducts: number;
+}
+
+const { totalProducts } = Astro.props;
+---
+
+<div class="flex justify-between items-center mb-8">
+    <div>
+        <h2 class="text-4xl font-nike-bold text-white mb-2">Men's Shoes & Sneakers</h2>
+        <p class="text-gray-400">({totalProducts} products)</p>
+    </div>
+    <div class="flex items-center gap-4">
+        <button class="flex items-center gap-2 px-4 py-2 border border-gray-600 rounded-lg text-white hover:border-secondary transition-colors">
+            <span>🔧</span>
+            <span class="font-nike-medium">Show Filters</span>
+        </button>
+        <div class="flex items-center gap-2">
+            <span class="text-gray-400 text-sm">Sort By:</span>
+            <select class="bg-gray-800 text-white px-3 py-2 rounded-lg border border-gray-600 focus:border-secondary focus:outline-none">
+                <option>Price: Low-High</option>
+                <option>Price: High-Low</option>
+                <option>Newest</option>
+                <option>Best Sellers</option>
+            </select>
+        </div>
+    </div>
+</div>
